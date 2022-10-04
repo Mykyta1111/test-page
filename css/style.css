@@ -20,7 +20,7 @@ body{
 }
 
 /* ================ */
-ul li{list-style: none;}
+ul, li{list-style: none;}
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
@@ -36,11 +36,13 @@ h1 {
 h2 {
 	font-size: 30px;
 	line-height: 1;
+	font-weight: 700;
 	margin: 20px 0px 20px 0px;
 }
 h3 {
 	font-size: 22px;
 	line-height: 1;
+	font-weight: 600;
 	margin: 15px 0px 15px 0px;
 }
 img {
@@ -48,9 +50,7 @@ img {
 	align-items: center;
 	border-radius: 12px;
 
-
 }
-
 }
 /*====================*/
 
@@ -91,7 +91,7 @@ img {
 	display: flex;
 	justify-content: space-around;
 }
-}
+
 .header_list li {
 	margin: 0px 15px 0px 15px;
 }
