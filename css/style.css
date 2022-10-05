@@ -23,7 +23,7 @@ body{
 ul, li{list-style: none;}
 img{vertical-align: top;}
 
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 300;}
 /*--------------------*/
 
 body {
@@ -47,7 +47,7 @@ h3 {
 	margin: 15px 0px 15px 0px;
 }
 img {
-	width: 400px;
+	width: 350px;
 	align-items: center;
 	border-radius: 12px;
 
@@ -113,7 +113,7 @@ img {
 /*===================================*/
 .main {
 	flex: 1 0 auto;
-	padding: 30px 15px;
+	padding: 15px 15px;
 }
 .site_name_in_about {
 	text-transform: uppercase;
@@ -128,10 +128,9 @@ img {
 	flex-shrink: 0;
 
 }
-.block_column {
+.block_img {
 	display: flex;
 	flex-wrap: wrap;
-}
-.block_column {
 	justify-content: space-evenly;
+	
 }
