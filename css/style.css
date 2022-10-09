@@ -146,7 +146,6 @@ img {
 .main {
 	flex: 1 0 auto;
 	padding: 15px 15px;
-	border: 5px red;
 }
 
 .site_name_in_about {
